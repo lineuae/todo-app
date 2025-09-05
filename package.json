@@ -1,7 +1,7 @@
 {
-  "name": "todo-app-portfolio-lamine",
+  "name": "todo-app-lamine",
   "version": "1.0.0",
-  "description": "Application simple de gestion de tâches - Portfolio d'admission",
+  "description": "Application simple de gestion de tâches quotidiennes",
   "main": "index.html",
   "scripts": {
     "start": "echo 'Site statique prêt'",
@@ -12,14 +12,14 @@
     "vanilla-javascript",
     "html",
     "css",
-    "portfolio",
-    "student-project"
+    "task-manager",
+    "web-app"
   ],
   "author": "Lamine",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lamine-portfolio/todo-app.git"
+    "url": "https://github.com/lineuae/todo-app.git"
   },
-  "homepage": "https://todo-app-lamine-portfolio.onrender.com"
+  "homepage": "https://todo-app-19es.onrender.com"
 }

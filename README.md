@@ -1,5 +1,7 @@
 # 📝 Gestionnaire de Tâches
 
+[![Voir la démo](https://img.shields.io/badge/🌐_Voir_la_démo-blue?style=for-the-badge)](https://todo-app-19es.onrender.com)
+
 > Application web simple de gestion de tâches quotidiennes  
 > Développé par Lamine
 
@@ -37,7 +39,7 @@ Une application web simple de gestion de tâches qui permet aux utilisateurs d'o
 ## 🚀 Comment utiliser l'application
 
 ### Démo en ligne
-🌐 **[Voir la démo](https://todo-app-lamine.onrender.com/)** *(lien sera mis à jour après déploiement)*
+🌐 **[Voir la démo](https://todo-app-19es.onrender.com)**
 
 ### Installation locale
 1. Télécharger ou cloner ce projet

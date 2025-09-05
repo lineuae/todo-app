@@ -25,7 +25,7 @@ Le fichier `render.yaml` configure automatiquement :
 
 ### 4. URL finale
 Une fois déployé, l'application sera accessible à :
-`https://todo-app-lamine.onrender.com`
+`https://todo-app-19es.onrender.com`
 
 ## Vérifications avant déploiement
 
