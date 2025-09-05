@@ -12,10 +12,11 @@
 2. Cliquer sur "New +" → "Static Site"
 3. Connecter votre repository GitHub
 4. Configurer le déploiement :
-   - **Name** : `todo-app-lamine`
-   - **Branch** : `main` (ou `master`)
+   - **Name** : `todo-app-lamine` (ou autre nom de votre choix)
+   - **Branch** : `main`
+   - **Root Directory** : (laisser vide)
    - **Build Command** : (laisser vide)
-   - **Publish Directory** : (laisser vide, utilise la racine)
+   - **Publish Directory** : `.` (point pour indiquer la racine)
 
 ### 3. Configuration automatique
 Le fichier `render.yaml` configure automatiquement :
@@ -24,8 +25,10 @@ Le fichier `render.yaml` configure automatiquement :
 - Le nom du service
 
 ### 4. URL finale
-Une fois déployé, l'application sera accessible à :
-`https://todo-app-19es.onrender.com`
+Une fois déployé, l'application sera accessible à une URL du type :
+`https://[nom-choisi].onrender.com`
+
+**Exemple de cette application** : https://todo-app-19es.onrender.com
 
 ## Vérifications avant déploiement
 

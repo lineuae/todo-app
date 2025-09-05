@@ -9,12 +9,10 @@ const addTaskBtn = document.getElementById('addTaskBtn');
 const tasksContainer = document.getElementById('tasksContainer');
 const emptyState = document.getElementById('emptyState');
 
-// Boutons de filtre
 const filterAll = document.getElementById('filterAll');
 const filterPending = document.getElementById('filterPending');
 const filterCompleted = document.getElementById('filterCompleted');
 
-// Compteurs
 const countAll = document.getElementById('countAll');
 const countPending = document.getElementById('countPending');
 const countCompleted = document.getElementById('countCompleted');
@@ -100,7 +98,6 @@ function toggleTask(taskId) {
  * @param {number} taskId - L'ID de la tâche à supprimer
  */
 function deleteTask(taskId) {
-    // Demander confirmation pour éviter les suppressions accidentelles
     if (confirm('Êtes-vous sûr de vouloir supprimer cette tâche ?')) {
         tasks = tasks.filter(task => task.id !== taskId);
         saveTasks();

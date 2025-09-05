@@ -52,32 +52,17 @@ Une application web simple de gestion de tâches qui permet aux utilisateurs d'o
 3. **Filtrer** : Utilisez les boutons "Toutes", "À faire" ou "Terminées"
 4. **Supprimer** : Cliquez sur l'icône 🗑️ (une confirmation sera demandée)
 
-## 📸 Captures d'écran
-
-### Interface principale
-![Interface principale](screenshots/main-interface.png)
-*Vue d'ensemble de l'application avec quelques tâches*
-
-### Filtres en action
-![Filtres](screenshots/filters.png)
-*Démonstration du système de filtres*
-
-### Version mobile
-![Version mobile](screenshots/mobile.png)
-*Application adaptée aux écrans mobiles*
-
 ## 🏗️ Structure du projet
 
 ```
-todo-app-portfolio/
-├── index.html          # Page principale
-├── style.css           # Feuilles de style
+todo-app/
+├── index.html          # Page principale HTML
+├── style.css           # Feuilles de style CSS
 ├── script.js           # Logique JavaScript
-├── README.md           # Documentation
-└── screenshots/        # Captures d'écran
-    ├── main-interface.png
-    ├── filters.png
-    └── mobile.png
+├── README.md           # Documentation du projet
+├── package.json        # Configuration npm
+├── render.yaml         # Configuration Render
+└── DEPLOYMENT.md       # Guide de déploiement
 ```
 
 ## 💡 Ce que j'ai appris
