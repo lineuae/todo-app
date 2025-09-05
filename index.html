@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestionnaire de Tâches</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📝 Gestionnaire de Tâches</h1>
+            <p class="subtitle">Organiser ses tâches quotidiennes simplement</p>
+        </header>
+
+        <main>
+            <!-- Formulaire d'ajout de tâche -->
+            <section class="add-task-section">
+                <div class="input-container">
+                    <input 
+                        type="text" 
+                        id="taskInput" 
+                        placeholder="Tapez votre nouvelle tâche ici..."
+                        maxlength="100"
+                    >
+                    <button id="addTaskBtn" class="btn-primary">
+                        ➕ Ajouter
+                    </button>
+                </div>
+            </section>
+
+            <!-- Filtres -->
+            <section class="filters-section">
+                <div class="filter-buttons">
+                    <button id="filterAll" class="filter-btn active">
+                        Toutes (<span id="countAll">0</span>)
+                    </button>
+                    <button id="filterPending" class="filter-btn">
+                        À faire (<span id="countPending">0</span>)
+                    </button>
+                    <button id="filterCompleted" class="filter-btn">
+                        Terminées (<span id="countCompleted">0</span>)
+                    </button>
+                </div>
+            </section>
+
+            <!-- Liste des tâches -->
+            <section class="tasks-section">
+                <div id="tasksContainer" class="tasks-container">
+                    <!-- Les tâches seront ajoutées ici dynamiquement -->
+                    <div id="emptyState" class="empty-state">
+                        <p>🎯 Aucune tâche pour le moment</p>
+                        <p class="empty-subtitle">Ajoutez votre première tâche ci-dessus !</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p class="footer-text">
+                Développé par Lamine
+            </p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
